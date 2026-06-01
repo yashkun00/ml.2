@@ -1,12 +1,12 @@
 # ml.2
 
 X = np.array([
-[1, 2],
+[1, 3],
 [1.5, 1.8],
-[5, 8],
+[5, 7],
 [8, 8],
 [1, 0.6],
-[9, 11],
+[9, 12],
 ])
 hclust = AgglomerativeClustering(n_clusters = 2)
 hclust.fit(X)
