@@ -5,8 +5,8 @@ X = np.array([
 [1.5, 1.2,
 [5, 7],
 [8, 8],
-[1, 0.6],
-[9, 12],
+[1, 6],
+[9, 1],
 ])
 hclust = AgglomerativeClustering(n_clusters = 2)
 hclust.fit(X)
